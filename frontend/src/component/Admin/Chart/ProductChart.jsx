@@ -7,7 +7,7 @@ const ProductChart = () => {
       <h1 style={{textAlign:"center", padding:"1vh"}}>Biểu đồ sản phẩm</h1>
     <iframe 
     style={{width:"400px", height:"500px"}}
-    src="https://charts.mongodb.com/charts-ercomerce-hpcar/embed/charts?id=636b6954-2e11-4f90-8ada-62bc3141de98&maxDataAge=60&theme=light&autoRefresh=true"
+    src="https://charts.mongodb.com/charts-project_klley-dppfl/embed/charts?id=64416039-b432-4cf0-8b5d-be3fb840127f&maxDataAge=300&theme=light&autoRefresh=true"
     title="YouTube video"
   ></iframe>
   </div>
