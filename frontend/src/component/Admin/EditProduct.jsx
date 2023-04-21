@@ -74,6 +74,23 @@ const UpdateProduct = ({ history, match }) => {
     { name: "XL" },
     { name: "XXL" },
     { name: "XXXL" },
+    { name: "25" },
+    { name: "26" },
+    { name: "27" },
+    { name: "28" },
+    { name: "29" },
+    { name: "30" },
+    { name: "31" },
+    { name: "32" },
+    { name: "33" },
+    { name: "34" },
+    { name: "35" },
+    { name: "36" },
+    { name: "37" },
+    { name: "38" },
+    { name: "39" },
+    { name: "40" },
+    { name: "41" },
     { name: "FREE SIZE" },
   ]);
   const [color] = useState([
@@ -93,8 +110,9 @@ const UpdateProduct = ({ history, match }) => {
     { name: "Hồng tím" },
     { name: "Hồng sữa" },
     { name: "Cam" },
+    { name: "Trắng đen" },
     { name: "Vàng" },
-    { name: "ONE COLOR" },
+    { name: "one color" },
   ]);
  
 

@@ -56,8 +56,6 @@ const CreateProduct = ({ history }) => {
     "Thắt lưng",
     "Kính mắt",
     "Giày nam",
-    "Xe may =))",
-    "Dong ho",
     "Ví",
     "Others",
   ];
@@ -84,6 +82,8 @@ const CreateProduct = ({ history }) => {
     { name: "37" },
     { name: "38" },
     { name: "39" },
+    { name: "40" },
+    { name: "41" },
     { name: "FREE SIZE" },
   ]);
   const [color] = useState([
@@ -103,9 +103,8 @@ const CreateProduct = ({ history }) => {
     { name: "Hồng tím" },
     { name: "Hồng sữa" },
     { name: "Cam" },
-    { name: "Trang den" },
-    { name: "Vàng kim" },
-    { name: "Vàng den" },
+    { name: "Trắng đen" },
+    { name: "Vàng" },
     { name: "one color" },
   ]);
 
