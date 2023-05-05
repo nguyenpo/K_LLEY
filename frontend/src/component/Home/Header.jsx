@@ -240,25 +240,25 @@ const Header = () => {
             }}
           >
             <Link to="/">
-              <li>Trang chủ</li>
+              <li><a>Trang chủ</a></li>
             </Link>
             <Link to="/about">
-              <li>Giới thiệu</li>
+              <li><a>Giới thiệu</a></li>
             </Link>
             <Link to="/Products">
-              <li>Sản phẩm</li>
+              <li><a>Sản phẩm</a></li>
             </Link>
             {/* <Link to="/creator">
             <li>Become A Seller</li>
           </Link> */}
             <Link to="/faq">
-              <li>Điều khoản người dùng</li>
+              <li><a>Điều khoản người dùng</a></li>
             </Link>
             <Link to="/contact">
-              <li>Liên hệ</li>
+              <li><a>Liên hệ</a></li>
             </Link>
             <Link to="/creator">
-              <li>Blog</li>
+              <li><a>Blog</a></li>
             </Link>
           </ul>
         </div>
