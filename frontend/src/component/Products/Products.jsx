@@ -181,7 +181,7 @@ const Products = ({ match }) => {
                     </li>
                   ))}
                 </ul> */}
-                <button style={{borderLeft:"none", borderRight:"none",cursor:"pointer"  }} onClick={() => setCategory()}>
+                <button style={{borderLeft:"none", borderRight:"none",cursor:"pointer"}} onClick={() => setCategory()}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
                   +Tất cả
@@ -305,7 +305,7 @@ const Products = ({ match }) => {
                   </ul>
                 ) : null}
 
-<button style={{borderLeft:"none", borderRight:"none",borderTop:"none"}} onClick={handleOpenSize}>
+                <button style={{borderLeft:"none", borderRight:"none",borderTop:"none"}} onClick={handleOpenSize}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
                     +Tìm kiếm theo kích thước
@@ -372,10 +372,10 @@ const Products = ({ match }) => {
                 itemsCountPerPage={resultPerPage}
                 totalItemsCount={productsCount}
                 onChange={setCurrentPageNo}
-                nextPageText="Next"
-                prevPageText="Prev"
-                firstPageText="First"
-                lastPageText="Last"
+                nextPageText=">"
+                prevPageText="<"
+                firstPageText="<<"
+                lastPageText=">>"
                 itemClass="page-item"
                 linkClass="page-link"
                 activeClass="pageItemActive"

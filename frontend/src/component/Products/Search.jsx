@@ -91,10 +91,10 @@ const Search = ({ history,match }) => {
           itemsCountPerPage={resultPerPage}
           totalItemsCount={productsCount}
           onChange={setCurrentPageNo}
-          nextPageText="Next"
-          prevPageText="Prev"
-          firstPageText="First"
-          lastPageText="Last"
+          nextPageText=">"
+          prevPageText="<"
+          firstPageText="<<"
+          lastPageText=">>"
           itemClass="page-item"
           linkClass="page-link"
           activeClass="pageItemActive"
