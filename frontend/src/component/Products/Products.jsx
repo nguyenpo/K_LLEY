@@ -184,7 +184,7 @@ const Products = ({ match }) => {
                 <button style={{borderLeft:"none", borderRight:"none",cursor:"pointer"}} onClick={() => setCategory()}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
-                  +Tất cả
+                  <div className="DanhMuc">+Tất cả</div>
                   </Typography>
                 </button>
                
@@ -203,7 +203,7 @@ const Products = ({ match }) => {
                   <button style={{borderLeft:"none", borderRight:"none", borderTop:"none"  }} onClick={handleOpenManGirl}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
-                  +Thời trang nam, nữ
+                  <div className="DanhMuc">+Thời trang nam, nữ</div>
                   </Typography>
                 </button>
                 {openManGirl ? (
@@ -221,13 +221,14 @@ const Products = ({ match }) => {
                   </ul>
                 ) : null}
           
-                <button style={{borderLeft:"none", borderRight:"none", borderTop:"none"  }} onClick={handleOpenMan}>
+                <button style={{borderLeft:"none", borderRight:"none", borderTop:"none" }} onClick={handleOpenMan}>
                   {" "}
-                  <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
-                  +Thời trang nam
+                  <Typography style={{ fontSize: "1.2vmax", padding: "5px"}}>
+                    <div className="DanhMuc">+Thời trang nam</div>
                   </Typography>
                 </button>
                 {openMan ? (
+                  <div class="drop">
                   <ul className="categoryBox">
                     {styleman.map((category) => (
                       <li style={{borderBottom:"1px solid grey"}}
@@ -240,12 +241,13 @@ const Products = ({ match }) => {
                       </li>
                     ))}
                   </ul>
+                  </div>
                 ) : null}
                
                 <button style={{ borderLeft:"none", borderRight:"none",borderTop:"none"}} onClick={handleOpenWoman}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
-                  +Thời trang nữ
+                  <div className="DanhMuc">+Thời trang nữ</div>
                   </Typography>
                 </button>
                 {openWoman ? (
@@ -266,7 +268,7 @@ const Products = ({ match }) => {
                <button style={{borderLeft:"none", borderRight:"none",borderTop:"none"}} onClick={handleOpenAccessory}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
-                 +Phụ kiện
+                  <div className="DanhMuc"> +Phụ kiện</div>
                   </Typography>
                 </button>
                 {openAccessory ? (
@@ -287,7 +289,7 @@ const Products = ({ match }) => {
                 <button style={{borderLeft:"none", borderRight:"none",borderTop:"none"}} onClick={handleOpenColor}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
-                    +Tìm kiếm theo màu sắc
+                  <div className="DanhMuc">+Tìm kiếm theo màu sắc</div>
                   </Typography>
                 </button>
                 {openColor ? (
@@ -308,7 +310,7 @@ const Products = ({ match }) => {
                 <button style={{borderLeft:"none", borderRight:"none",borderTop:"none"}} onClick={handleOpenSize}>
                   {" "}
                   <Typography style={{ fontSize: "1.2vmax", padding: "5px" }}>
-                    +Tìm kiếm theo kích thước
+                  <div className="DanhMuc"> +Tìm kiếm theo kích thước</div>
                   </Typography>
                 </button>
                 {openSize ? (

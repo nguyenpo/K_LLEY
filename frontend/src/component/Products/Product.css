@@ -53,4 +53,7 @@ li.category-link{
     height: 100vh;
     object-fit:scale-down !important;
   }
- 
+.DanhMuc:hover{
+    background-color:rgb(233, 123, 123);
+}
+
