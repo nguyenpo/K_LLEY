@@ -9,8 +9,8 @@ import LocalMallIcon from "@material-ui/icons/LocalMall";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import VpnKeyIcon from "@material-ui/icons/VpnKey";
 import ListAltIcon from "@material-ui/icons/ListAlt";
-// import Creator from "@material-ui/icons/Store";
-// import ForumIcon from "@material-ui/icons/Forum";
+import Creator from "@material-ui/icons/Store";
+import ForumIcon from "@material-ui/icons/Forum";
 import Support from "@material-ui/icons/ReportProblem";
 import QuestionMarkIcon from "@material-ui/icons/Cached";
 import Update from "@material-ui/icons/DynamicFeedOutlined";
@@ -224,7 +224,7 @@ const MoreOption = ({ history }) => {
           </Link>
         )}
 
-        {/* <Link to="/commingsoon">
+        <Link to="/commingsoon">
           <div
             style={{
               display: "flex",
@@ -247,9 +247,9 @@ const MoreOption = ({ history }) => {
               Create Own Shop
             </span>
           </div>
-        </Link> */}
+        </Link>
 
-        {/* <Link to="/commingsoon">
+        <Link to="/commingsoon">
           <div
             style={{
               display: "flex",
@@ -272,7 +272,7 @@ const MoreOption = ({ history }) => {
               Live chat support
             </span>
           </div>
-        </Link> */}
+        </Link>
         {isAuthenticated === false ? (
           ""
         ) : (

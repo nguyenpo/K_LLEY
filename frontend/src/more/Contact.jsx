@@ -92,10 +92,10 @@ const Contact = () => {
               </span>
             </strong>
           </div>
-          {/* <p style={{
+          <p style={{
             padding:"10px 0",
             fontSize:"1.3vmax"
-        }}>The Live chat support option is comming soon....</p> */}
+        }}>The Live chat support option is comming soon....</p>
           <h2
             style={{
               padding: "20px 0",
